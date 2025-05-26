@@ -10,6 +10,7 @@ namespace University.Controllers
         // GET: MajorController
         public ActionResult Index()
         {
+            // This is a sample data source for demonstration purposes.
             List<Major> majors;
             majors = new List<Major>();
 
